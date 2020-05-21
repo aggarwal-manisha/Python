@@ -48,5 +48,5 @@ print(sum(nums))
 # --> do the sum of all the values of the list
 
 
-print(sort(nums))
+print(nums.sort())
 # --> will sort the list (by default in ascending order)

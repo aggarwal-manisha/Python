@@ -15,3 +15,9 @@ tup.count(10) #result --> 2
 # returns the index of that particular element
 tup.index(20) #result --> 1
 
+
+n = input()
+l = map(int, n.split())
+t = tuple(l)
+
+print(hash(t))
